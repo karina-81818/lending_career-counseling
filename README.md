@@ -2,7 +2,6 @@
 <p>Сareer consultant website</p>
 
 <img width="700" alt="maket" src="https://github.com/karina-81818/lending_-Career_counseling/assets/123713744/2566223b-2454-48f7-81b5-11005b96fa53">
-![maket11_career cons_1](https://github.com/karina-81818/lending_-Career_counseling/assets/123713744/2566223b-2454-48f7-81b5-11005b96fa53)
 
 ## Getting started
 Host the parent directory on the webserver
