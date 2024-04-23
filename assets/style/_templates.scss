@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header,
+.main__block,
+footer {
+  width: 100%;
+}
+.header__name,
+.header__job {
+  font-family: $fontLogo;
+}
+.header,
+.header__item,
+.main__block,
+.footer,
+.footer__media,
+.footer__school {
+  font-family: $fontContent;
+}
+.header,
+.about,
+.signup,
+.footer {
+  color: $colorWhite;
+}
+.services,
+.offer,
+.free-advice,
+.certificates {
+  color: $colorBroun;
+}
+@mixin h2 {
+  font-size: 2vw;
+  line-height: 2vw;
+  font-weight: 700;
+}
+@mixin h2-tablet {
+  font-size: 2.7vw;
+  line-height: 2vw;
+  font-weight: 700;
+}
+@mixin h2-mobile {
+  font-size: 4.5vw;
+  line-height: 4.5vw;
+  font-weight: 700;
+}
+@mixin h3 {
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  font-weight: 700;
+}
+@mixin h3-tablet {
+  font-size: 2.4vw;
+  line-height: 1.5vw;
+  font-weight: 700;
+}
+@mixin h3-mobile {
+  font-size: 4vw;
+  line-height: 4vw;
+  font-weight: 700;
+}
+@mixin text {
+  font-size: 1.3vw;
+  line-height: 1.5vw;
+  font-weight: 400;
+  text-align: justify;
+}
+@mixin text-tablet {
+  font-size: 2vw;
+  line-height: 2vw;
+  font-weight: 400;
+  text-align: justify;
+}
+@mixin text-mobile {
+  font-size: 3.7vw;
+  line-height: 3.5vw;
+  font-weight: 400;
+  text-align: justify;
+}
+@mixin button-cost($border-radius, $padding) {
+  border: none;
+  background-color: $colorButton;
+  color: $colorWhite;
+  border-radius: $border-radius;
+  padding: $padding;
+}
